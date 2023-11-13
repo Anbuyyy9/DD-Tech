@@ -59,3 +59,47 @@
     width: auto;
     margin: 2%;
 }
+h2{
+    display: flex;
+    justify-content: flex-end;
+
+}
+h3{
+    display: flex;
+    justify-content: flex-end;
+
+}
+h4{
+    display: flex;
+    justify-content: end;
+
+   
+
+
+}
+.caixa{
+    display: flex;
+    background-color:gray;
+    padding: 70px;
+    color: beige;
+    flex-direction: column;
+    width: 100px;
+    float: right;
+
+
+}
+.button{
+    position:relative;
+    right: 50px;
+    display: flex;
+    justify-content:left;
+    flex-direction:column-reverse;
+    align-items:left;
+    background-color: yellow;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+
+
+
+}
