@@ -173,3 +173,39 @@ h4{
     width: 200px;
     padding: 5px
 }
+#uniao{
+    display: flex;
+    justify-content:space-between;
+    font-size: 120%;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#lista2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.quantity-display {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+}
