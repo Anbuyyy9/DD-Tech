@@ -9,7 +9,7 @@
 }
 #MenuPrincipal a {
     text-decoration: none;
-    color: blue;
+    color:black;
 }
 
 /* Menu de caminho */
@@ -59,19 +59,26 @@
     width: auto;
     margin: 2%;
 }
+h1{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    right: 50px;
+
+}
 h2{
     display: flex;
-    justify-content: flex-end;
+    
 
 }
 h3{
     display: flex;
-    justify-content: flex-end;
+
 
 }
 h4{
     display: flex;
-    justify-content: end;
+    justify-content: center;
 
    
 
@@ -79,27 +86,90 @@ h4{
 }
 .caixa{
     display: flex;
-    background-color:gray;
-    padding: 70px;
+    background-color:rgba(182, 175, 175, 0.902);
+    padding: 20px;
     color: beige;
     flex-direction: column;
-    width: 100px;
+    width: 200px;
     float: right;
+    text-align: left;
+    right: 10px;
+    color: black;
+    margin: 3px;;
+
 
 
 }
 .button{
     position:relative;
-    right: 50px;
+    right: 40px;
     display: flex;
-    justify-content:left;
+    justify-content:center;
     flex-direction:column-reverse;
-    align-items:left;
+    align-items:center;
     background-color: yellow;
     width: 200px;
     height: 40px;
     margin: 10px;
+    right: 10px;
+    border-radius: 30px;
+    
 
 
 
+}#botao1{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    
+}
+#botao2{
+    background-color:yellow ;
+    align-content:center;
+}
+#botao3{
+    background-color: rgb(192, 190, 190);
+    color: grey;
+
+}
+/*.primeiro{
+    margin: -20px;
+    height: 30px;
+    width: 200px;
+    padding: 1px;
+}
+    */
+
+#segundo{
+    display: flex;
+    justify-content: space-around;
+
+}
+#me{
+    background-color: brown;
+    font-size: 20px;
+}
+#oferta{
+    position:relative;
+    right: -10px;
+    left: -10px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+    align-items:center;
+    background-color:white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.inicio{
+    margin: -20px;
+    height: 300px;
+    width: 200px;
+    padding: 5px
 }
