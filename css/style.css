@@ -133,17 +133,17 @@ h4{
     color: grey;
 
 }
-/*.primeiro{
-    margin: -20px;
-    height: 30px;
-    width: 200px;
-    padding: 1px;
+.primeiro{
+    margin: 3;
+    padding: 0px;
+    font-weight:bold;
 }
-    */
+    
 
 #segundo{
     display: flex;
-    justify-content: space-around;
+    margin: 0;
+    font-size: 100%;
 
 }
 #me{
@@ -166,12 +166,69 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
+#comprando{
+    position:relative;
+    right: -10px;
+    left: -10px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+    align-items:center;
+    background-color:white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    float: left;
+    width: 13%;
+}
+#esvaziar{
+    position:relative;
+    right: -10px;
+    left: -10px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+    align-items:center;
+    background-color:white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    float: left;
+    width: 13%;
+}
+#atualizar{
+    position:relative;
+    right: -10px;
+    left: -10px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+    align-items:center;
+    background-color:white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    width: 30%;
+    text-align: lefts;
+}
+#opcoes{
+    display: flex;
+}
 
 .inicio{
     margin: -20px;
     height: 300px;
     width: 200px;
-    padding: 5px
+    padding: 3px
 }
 #uniao{
     display: flex;
