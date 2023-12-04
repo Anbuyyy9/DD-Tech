@@ -100,50 +100,53 @@ h4{
     padding: 10px;
 }
 #envio{
+    margin: -20px;
     display: flex;
     justify-content: space-between;
-    right: 100px;
-    margin: -15px;
-    padding: 5px;
-    width: 200px;
-    
+    padding: 10px;
+   
     
     
 }
 #total1{
+    margin: -20px;
     display: flex;
     justify-content: space-between;
-    right: 100px;
-    margin: -15px;
-    padding: 5px;
-    width: 200px;
+    padding: 10px;
 }   
 
 #local{
+    margin: -20px;
     display: flex;
     justify-content: space-between;
-    right: 100px;
-    margin: -15px;
-    padding: 5px;
-    width: 250px;
-    height: 50px;
+    padding: 10px;
+    color: grey;
 }
+
 .caixa{
     display: flex;
-    background-color:rgba(182, 175, 175, 0.902);
-    padding: 50px;
+    background-color:rgba(225, 214, 214, 0.428);
+    padding: 70px;
     color: beige;
     flex-direction: column;
     width: 200px;
     float: right;
     text-align: left;
-    right: 10px;
+    right: 15px;
+    left: 15px;
     color: black;
-    margin: 3px;;
+    height: 550px;
+    margin: 0px;
 
-
-
+    
 }
+#menu{
+    
+    padding: 25px;
+}
+
+
+
 .button{
     position:relative;
     right: 40px;
@@ -152,7 +155,7 @@ h4{
     flex-direction:column-reverse;
     align-items:center;
     background-color: yellow;
-    width: 200px;
+    width: 250px;
     height: 40px;
     margin: 10px;
     right: 10px;
@@ -271,21 +274,30 @@ h4{
 
 }
 #taxa{
+    margin: -20px;
     display: flex;
     justify-content: space-between;
-    margin: -25px;
-    padding: 15px;
-    width: 200px;
-    height: 30px ;
+    padding: 10px;
     
 }
 
 .inicio{
-    margin: -20px;
+    background-color: red;
+    margin: -40px;
     height: 300px;
-    width: 200px;
-    padding: 3px
+    width: 250px;
+    padding: -20px
 }
+#somatotal{
+    
+    margin: -40px;
+    height: 300px;
+    width: 260px;
+    padding: 3px;
+    justify-content: space-between;
+
+}
+
 #uniao{
     display: flex;
     justify-content:space-between;
